@@ -15,9 +15,7 @@ const WeatherCard = ({ weather }) => {
         <img
           alt={'weather'}
           className={'weather-icon'}
-          src={`../../public/icons/${
-            weather ? weather.weather[0].icon : 'unknown'
-          }.png`}
+          src={`icons/${weather ? weather.weather[0].icon : 'unknown'}.png`}
         />
       </div>
       <div className='card-body'>
